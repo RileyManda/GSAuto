@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.karan.gsautofinale">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="GS Auto"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:label="GS Auto">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity.LoginActivity" />
+        <activity android:name=".LoginActivity.SignUpActivity" />
+        <activity
+            android:name=".Products.CheckNuts.CheckNutsActivity"
+            android:label="CheckNuts" />
+        <activity
+            android:name=".Products.Studs.StudsActivity"
+            android:label="Studs" />
+        <activity
+            android:name=".DetailActivity"
+            android:label="Details" />
+        <activity
+            android:name=".SearchActivity"
+            android:label="Search here" />
+        <activity android:name=".SearchDetail" />
+        <activity
+            android:name=".Products.Kingpins.KingpinsActivity"
+            android:label="KingPins" />
+        <activity
+            android:name=".Products.MiscBolts.MiscBoltsActivity"
+            android:label="Misc Bolts" />
+        <activity
+            android:name=".Products.Springpin.SpringpinActivity"
+            android:label="Spring Pin" />
+        <activity
+            android:name=".Products.SpringCenter.SpringCenterActivity"
+            android:label="SpringCenter" />
+        <activity
+            android:name=".Products.SpringUBolt.SpringUboltActivity"
+            android:label="Spring UBolt" />
+        <activity
+            android:name=".Products.Casted.CastedActivity"
+            android:label="Casted" />
+        <activity
+            android:name=".Products.Casted.CastedRingsActivity"
+            android:label="Casted Rings" />
+        <activity
+            android:name=".ContactActivity"
+            android:label="Contact Us" />
+        <activity
+            android:name=".Products.Nuts.NutsActivity"
+            android:label="Nuts" />
+        <activity
+            android:name=".Products.HubBolts.HubboltsActivity"
+            android:label="Hub Bolts" />
+        <activity
+            android:name=".Products.SpringShackle.SpringShackle"
+            android:label="Spring shackle pins" />
+        <activity
+            android:name=".Products.Trailer.TrailerActivity"
+            android:label="Trailer/Axle " />
+        <activity
+            android:name=".MainActivity"
+            android:label="GS Auto"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".AboutActivity"
+            android:label="About Us" />
+        <activity
+            android:name=".Cars.CarActivity"
+            android:label="Models" />
+        <activity android:name=".Products.HubBoltWashers.HubWashersActivity"
+            android:label="HubBolt Washers"></activity>
+    </application>
+
+</manifest>

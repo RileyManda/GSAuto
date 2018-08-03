@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".AboutActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/colorRed"
+        android:layout_height="50dp"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv2"-->
+        <!--android:layout_below="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="GS Auto"-->
+        <!--android:gravity="center"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:layout_margin="3dp"/>-->
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_below="@id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/gs_copy"/>
+
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/black"
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="GS AUTO is one of the leading and fastest growing manufacturer of Automotive Suspension and Fastening Components for Indian ( International Passenger Cars, Utility Vehicles, Commercial Vehicles (LCVs, MCVs, HCVs), Multi-Axle Vehicles, Trailers and Special Purpose Vehicles.
+
+
+Our manufacturing facilities are located in major industrial township of Ludhiana in North India  Jamshedpur in Eastern India, spread over an area of 1.2 million square feet with more than 5,50,000 square feet of covered area. All our manufacturing facilities are TS 16949 certified.
+
+
+We are an established leader in all our product segments. All our products are trusted by National and International Tier-1 and Automobile Majors Like Arvin-Meritor, Ashok Leyland, Daimler India Commercial Vehicles Pvt. Ltd., Hindustan Motors Ltd., Mahindra  Mahindra, Mahindra Navistar, Maruti Suzuki India Ltd., SML Isuzu Ltd., Tata Motors, Taco Hendrickson Suspensions Pvt. Ltd., VE Commercial Vehicles Ltd., VOLVO etc. to name a few."
+
+        android:layout_below="@+id/imageView2"/>
+
+        <TextView
+            android:id="@+id/tvAboutTwo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvAbout"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:text="We are an established leader in all our product segments. All our products are trusted by National and International Tier-1 and Automobile Majors Like Arvin-Meritor, Ashok Leyland, Daimler India Commercial Vehicles Pvt. Ltd., Hindustan Motors Ltd., Mahindra  Mahindra, Mahindra Navistar, Maruti Suzuki India Ltd., SML Isuzu Ltd., Tata Motors, Taco Hendrickson Suspensions Pvt. Ltd., VE Commercial Vehicles Ltd., VOLVO etc. to name a few.
+            We manufacture vast range of casting and fabricated machined components compatible to various International vehicles viz. DAF, Daimler, Hino, MAN, Renault, Scania, Volvo and other Truck and Multi- Axle Trailers for Overseas Markets. We develop components based on Customer's Specifications, Drawings and also provide Designing Solutions for enhanced Product Performance  Improved Quality."
+            android:textStyle="normal"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/linearAbout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvAboutTwo"
+            android:weightSum="2"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="S. Jasbir Singh Ryait "
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="S.Surinder Singh Ryait"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linearAbout"
+            android:weightSum="2"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Chairman and CEO"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:background="@color/colorRed"/>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Managing Director"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

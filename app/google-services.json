@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "150612374788",
+    "firebase_url": "https://gsautofinale.firebaseio.com",
+    "project_id": "gsautofinale",
+    "storage_bucket": "gsautofinale.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150612374788:android:6f1973c4bcfec116",
+        "android_client_info": {
+          "package_name": "com.example.karan.gsautofinale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150612374788-p8f151jbu1ebdsh4bag4ckcv97pgbh9e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.karan.gsautofinale",
+            "certificate_hash": "fdb63f002a8e66a84143a99fd86343430a5c1e04"
+          }
+        },
+        {
+          "client_id": "150612374788-o1mjk2m6k94cptlp6ba51eslseqqdf8c.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "150612374788-o1mjk2m6k94cptlp6ba51eslseqqdf8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8X9haU94JC6HinnHj-KQ7PHXodzLp9qs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150612374788-o1mjk2m6k94cptlp6ba51eslseqqdf8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

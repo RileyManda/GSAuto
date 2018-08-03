@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSearchCode"
+        android:text="partno"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:text="apps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSearchCode"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="46dp"
+        android:id="@+id/tvSearchSize" />
+
+    <TextView
+        android:text="desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSearchSize"
+        android:layout_alignRight="@+id/tvSearchSize"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_alignEnd="@+id/tvSearchSize"
+        android:layout_marginTop="52dp"
+        android:id="@+id/tvSearchModel" />
+
+    <TextView
+        android:text="price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSearchModel"
+        android:layout_alignRight="@+id/tvSearchModel"
+        android:layout_alignEnd="@+id/tvSearchModel"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="47dp"
+        android:id="@+id/tvSearchPrice" />
+
+
+</RelativeLayout>

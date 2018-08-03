@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="home"
+        android:id="@+id/homee"
+        android:iconTint="@android:color/black"
+        android:icon="@drawable/home"
+        />
+
+    <item
+        android:title="Cars"
+        android:id="@+id/car"
+        android:iconTint="@android:color/black"
+        android:icon="@drawable/carfront"
+        />
+
+    <item
+        android:title="Products"
+        android:id="@+id/products"
+        android:icon="@drawable/product"
+        android:iconTint="@android:color/black"
+        />
+
+    <item
+        android:title="About Us"
+        android:id="@+id/aboutus"
+        android:iconTint="@android:color/black"
+        android:icon="@drawable/aboutus"
+        />
+
+</menu>

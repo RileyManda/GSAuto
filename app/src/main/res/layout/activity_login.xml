@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".LoginActivity.LoginActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GS Auto"
+        android:gravity="center"
+        android:textSize="55sp"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/textViewTitle"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LogIn"
+        android:textSize="25sp"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:id="@+id/textViewLog"/>
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="158dp"
+        android:text="Email:-"
+        android:layout_marginLeft="45dp"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvUsername"
+        android:ems="10"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/edit_text_layout"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPass"
+        android:layout_below="@+id/etUsername"
+        android:text="Password:-"
+        android:layout_marginLeft="45dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/etPass"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/edit_text_layout"
+        android:layout_below="@+id/tvPass"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
+
+    <Button
+        android:id="@+id/bLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="LogIn"
+        android:background="@drawable/button"
+        android:layout_below="@+id/etPass"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@android:color/black"
+        android:layout_marginRight="40dp"/>
+
+    <TextView
+        android:id="@+id/tvNeedAcc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="No Account?Create one."
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:layout_below="@+id/bLogIn"
+        android:clickable="true"
+        android:gravity="center"/>
+
+</RelativeLayout>
